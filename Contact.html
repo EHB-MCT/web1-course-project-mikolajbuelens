@@ -1,0 +1,107 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="java.js" type="module"></script>
+
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="topnav" id="myTopnav">
+        <a href="Home.html">home</a>
+        <a href="About.html">About me</a>
+        <a href="Contact.html">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+
+
+
+
+
+
+
+    <body style="margin: 0;"></body>
+
+
+
+    <div class="wrapper">
+
+
+
+
+        <div class="text">
+            <div class="row">
+                <div class="column" style="background-color:black;">
+                  <h1 id="contact">How to <br> contact me?</h1>
+                </div>
+                <div class="column" style="background-color:black;">
+                    <div class="message">
+                    <h2>Leave a message</h2>
+                    <div class="column">
+                        <form action="/action_page.php">
+                          <label for="fname">E-mail</label>
+                          <input type="text">
+                          <br>
+                          <label for="subject">Message</label>
+                          <textarea id="subject" name="subject" style="height:170px"></textarea>
+                          <input type="submit" value="send">
+                        </div>
+                        </div>
+                    <div class="contact">
+                  <h3>E-mail</h3>
+                  <p > mikolaj.buelens@ehb.student.be </p>
+                  <h3>Tel</h3>
+                  <p>+32 477 37 74 63</p>
+                  <h3>Adress</h3>
+                  <p>Nijverheidskaai 170,<br> 1070 Anderlecht</p>
+                </div>
+    
+                </div>
+              </div>
+
+
+            <div class="footer">
+                
+                <ul>
+                    <li id="footer_list"></li><a href="Home.html">Home</a> </li>
+                    <li id="footer_list" ></li><a href="About.html">About</a> </li>
+                    <li id="footer_list"></li><a href="Contact.html">Contact</a> </li>
+                    <p>© 2021 Mikolaj Buelens inc. </p>
+                </ul>
+
+            </div>
+        </div>
+        
+    </div>
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,99 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="java.js" type="module"></script>
+
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="topnav" id="myTopnav">
+        <a href="Home.html">home</a>
+        <a href="About.html">About me</a>
+        <a href="Contact.html">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+
+
+
+
+
+
+
+    <body style="margin: 0;"></body>
+
+
+
+    <div class="wrapper">
+
+
+        <video loop width="100%" height="auto%" autoplay>
+            <source src="Comp 1.mp4" type="video/mp4">
+            <source src="Comp 1.mp4" type="video/ogg">
+            Your browser does not support the video tag.
+        </video>
+
+
+
+        <div class="text">
+            <div class="row">
+                <div class="column" style="background-color:black;">
+                  <h1>Welcome</h1>
+                  <p id="text">Hi my name is Mikolaj and welcome to my personal website, here you'll find some information about me
+                    as well as all the available ways to contact me. Hope to hear from you soon. </p>
+                </div>
+                <div class="column" style="background-color:black;">
+                  <h1>About the site</h1>
+                  <p id="text2">This site was both programmed and designed by me, Mikolaj Buelens, a student at EHB Brussels (see
+                    about me page for more info) the programming langueges used for this site are HTML, css and Java
+                    script. Animation made with Adobe After effects. </p>
+    
+                </div>
+              </div>
+
+
+            <div class="footer">
+                
+                <ul>
+                    <li id="footer_list"></li><a href="Home.html">Home</a> </li>
+                    <li id="footer_list" ></li><a href="About.html">About</a> </li>
+                    <li id="footer_list"></li><a href="Contact.html">Contact</a> </li>
+                    <p>© 2021 Mikolaj Buelens inc. </p>
+                </ul>
+
+            </div>
+        </div>
+        
+    </div>
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

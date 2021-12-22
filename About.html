@@ -1,0 +1,109 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="java.js" type="module"></script>
+
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="topnav" id="myTopnav">
+        <a href="Home.html">home</a>
+        <a href="About.html">About me</a>
+        <a href="Contact.html">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+
+
+
+
+
+
+
+    <body style="margin: 0;"></body>
+
+
+
+    <div class="wrapper">
+
+
+
+
+        <div class="text">
+            <div class="row">
+                <div class="column" style="background-color:black;">
+                    <h1>Who am I?</h1>
+                    <p id="text"> <img id="me" src="me.png" alt=""> My name is Mikolaj Buelens I'am 21 years old and
+                        <br> I'm a student at <i>Erasmus hogeschool Brussel</i> <br> were I'am
+                        currently studying <br> Multimedia and creative technology. <br> I always had an intrest in both
+                        the technical and the creative side of technology. </p>
+
+                </div>
+                <div class="column" style="background-color:black;">
+                    <h1 id="skills">Skills</h1>
+                    <h3 id="skills2"> My current software/programming knowledge*:</h3>
+                    <div class="row">
+                        <li id="list1">Adobe illustator</li>
+                        <li id="list1">Adobe photoshop</li>
+                        <li id="list1">Adobe Premiere</li>
+                        <li id="list1">Adobe After effects </li>
+                    </div>
+                    <div class="row">
+                        <li id="list2">HTML</li>
+                        <li id="list2">CSS</li>
+                        <li id="list2">Java Script</li>
+                    </div>
+                    <p id="small"><small>*currently still in development</small></p>
+                    
+
+
+
+                </div>
+            </div>
+
+
+            <div class="footer">
+
+                <ul>
+                    <li id="footer_list"></li><a href="Home.html">Home</a> </li>
+                    <li id="footer_list"></li><a href="About.html">About</a> </li>
+                    <li id="footer_list"></li><a href="Contact.html">Contact</a> </li>
+                    <p>© 2021 Mikolaj Buelens inc. </p>
+                </ul>
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
