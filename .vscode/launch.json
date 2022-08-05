@@ -6,11 +6,11 @@
     "configurations": [
 
         {
-            "type": "pwa-chrome",
+            "type": "chrome",
             "request": "attach",
             "name": "Attach to Chrome",
             "port": 9222,
-            "url": "http://127.0.0.1:5500"
+            "url": "http://127.0.0.1:5504"
         }
     ]
 }

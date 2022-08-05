@@ -1,0 +1,56 @@
+/* colors: #26292B, #2E3239, #5F7ADB, #A2B2EE */
+/* colors: #24293E, #8EBBFF, #F4F5FC, #2D3652 */
+
+.splash {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.splash h1 {
+  font-family: "Share Tech mono";
+  color: #f4f5fc;
+  font-size: 200px;
+  font-weight: 500;
+}
+
+#miko {
+  text-shadow: 0 0 7px white;
+  opacity: 0;
+  animation: opacity 2s forwards;
+  animation-delay: 1.5s;
+}
+
+@keyframes opacity {
+  100% {
+
+    opacity: 100;
+  }
+}
+
+.lBrace h1,
+.rBrace h1 {
+  color: rgb(135, 135, 135);
+}
+
+.lBrace {
+  transform: translateX(200px);
+  animation: moveBraces 1.5s forwards;
+  animation-delay: 0.5s;
+
+}
+
+.rBrace {
+  transform: translateX(-200px);
+  animation: moveBraces 1.5s forwards;
+  animation-delay: 0.5s;
+}
+
+@keyframes moveBraces {
+  100% {
+    transform: translateX(0%);
+  }
+}
