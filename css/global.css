@@ -19,6 +19,7 @@ body {
 } */
 
 nav {
+  z-index: 11;
   width: 15%;
   height: 100%;
   background-color: #2d3652;
@@ -26,34 +27,46 @@ nav {
   position: absolute;
 }
 
+nav h4 {
+  font-family: "Share Tech mono";
+}
+
 ul {
-  margin-top: 50%;
-  margin-bottom: 50%;
-  height: 50%;
+  margin-top: 60%;
+  height: 60%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   list-style: none;
-  color: white;
+  color: #f4f5fc;
   /* background-color: #2d3652; */
 }
 
-button {
+a {
   all: unset;
-
   font-size: 25px;
   font-family: "Share Tech mono";
   cursor: pointer;
   text-decoration: none;
 }
 
-button:hover {
+a:hover {
   color: #75fd92;
 }
 
 .homeContent {
   margin-top: 50px;
-  margin-left: 10%;
+  margin-left: 20%;
+}
+
+p {
+  font-size: 20px;
+  margin-top: 50px;
+  /* margin-left: 500px; */
+  margin-right: 500px;
+  color: #f4f5fc;
+  font-family: "Noto Sans";
+  font-weight: 0;
 }
 
 h2,
@@ -61,9 +74,8 @@ h3 {
   letter-spacing: -3px;
   font-size: 50px;
   font-weight: 200;
-  margin-left: 150px;
   font-family: "Share Tech mono";
-  color: white;
+  color: #f4f5fc;
 }
 
 h3 {
@@ -73,6 +85,13 @@ h3 {
 footer {
   background-color: #2d3652;
   height: 10%;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 500px;
+  width: 600px;
 }
 
 /* @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');

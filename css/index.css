@@ -57,3 +57,92 @@
     transform: translateX(0%);
   }
 }
+
+span {
+  color: #75fd92;
+}
+
+#bitmoji {
+  margin-left: 15%;
+  width: 30%;
+  transform: rotateY(180deg);
+}
+
+.mapouter {
+  margin-right: 10%;
+  float: right;
+  text-align: right;
+  height: 500px;
+  width: 600px;
+  /* outline: 15px solid #75fd92; */
+  border-radius: 5%;
+}
+
+
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: absolute;
+  justify-content: center;
+  margin-top: 20px;
+  margin-right: 200px;
+  margin-left: 300px;
+  flex-wrap: wrap;
+}
+
+.cards div:not(.skills) {
+  background-image: linear-gradient(#75fd92, #469757);
+  margin: 10px;
+  width: 300px;
+  height: 260px;
+  border-radius: 10px;
+  filter: drop-shadow(0px 0px 15px #469757);
+  text-align: center;
+}
+
+.cards h3 img p {
+  display: flex;
+  flex-direction: column;
+}
+
+.cards h3 {
+  letter-spacing: normal;
+  font-size: 25px;
+  margin-right: 500px;
+  font-family: "Noto Sans";
+  font-weight: 700;
+  color: #2d3652;
+  margin: 0;
+}
+
+.cards img {
+  margin-top: 10px;
+  width: 75px;
+}
+
+.cards p {
+  margin: 0;
+  font-family: "Noto Sans";
+  color: #f4f5fc;
+  font-size: 20px;
+  margin: 5px;
+}
+
+.skills {
+  /* display: flex; */
+  flex: 0 0 80%;
+  text-align: center;
+border-bottom: solid #f4f5fc;
+
+  /* border-bottom: solid; */
+
+}
+
+
+
+.skills h2 {
+  color: #f4f5fc;
+  /* width: 1000px; */
+}
