@@ -61,26 +61,33 @@
 span {
   color: #75fd92;
 }
+/* 
+Common breakpoints are 320px — 480px for mobile devices,
+481px — 768px for iPads & tablets,
+769px — 1024px for small screens like laptop,
+1025px — 1200px for large screens like Desktops,
+and 1201px and above for extra large screens like TV.  */
+
+.wave {
+  width: 100%;
+  display: flex;
+  justify-content: right;
+}
 
 #bitmoji {
-  margin-left: 15%;
-  width: 30%;
-  transform: rotateY(180deg);
+  z-index: 1;
+  /* transform: rotateY(180deg); */
+  height: 100%;
+  /* margin-left: 15%; */
+  /* display: flex; */
+  /* justify-content: right; */
+  width: 23%;
+  /* width:50%; */
+  /* vertical-align: middle; */
 }
-
-.mapouter {
-  margin-right: 10%;
-  float: right;
-  text-align: right;
-  height: 500px;
-  width: 600px;
-  /* outline: 15px solid #75fd92; */
-  border-radius: 5%;
-}
-
-
 
 .cards {
+  margin-right: 50px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -88,14 +95,15 @@ span {
   justify-content: center;
   margin-top: 20px;
   margin-right: 200px;
-  margin-left: 300px;
+  /* margin-left: 100px; */
   flex-wrap: wrap;
+  /* width: 100%; */
 }
 
 .cards div:not(.skills) {
   background-image: linear-gradient(#75fd92, #469757);
   margin: 10px;
-  width: 300px;
+  width: 220px;
   height: 260px;
   border-radius: 10px;
   filter: drop-shadow(0px 0px 15px #469757);
@@ -126,7 +134,7 @@ span {
   margin: 0;
   font-family: "Noto Sans";
   color: #f4f5fc;
-  font-size: 20px;
+  font-size: 18px;
   margin: 5px;
 }
 
@@ -134,13 +142,10 @@ span {
   /* display: flex; */
   flex: 0 0 80%;
   text-align: center;
-border-bottom: solid #f4f5fc;
+  border-bottom: solid #f4f5fc;
 
   /* border-bottom: solid; */
-
 }
-
-
 
 .skills h2 {
   color: #f4f5fc;
