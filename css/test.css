@@ -1,0 +1,30 @@
+
+
+body {
+    background-color: darkgreen ;
+}
+.testDiv {
+    /* position: absolute;
+    right: 0; */
+    /* margin-right: 0px;
+    margin-left: auto; */
+    /* width: 50px; */
+    background-color: white;
+  
+    /* height: 100px; */
+    
+  }
+  #testId img{
+    
+    /* width: 200px; */
+  }
+  #testId {
+  
+  
+  }
+  
+  .testDiv img {
+    width: 400px;
+    right: 0;
+    position: absolute;
+  }
