@@ -22,9 +22,9 @@
     </script>
     <main>
       <div class="hamburger">
-        <img src="icons/hamburger.svg" alt="" />
+        <a onclick="toggle();"><img src="icons/hamburger.svg" alt="menu" /></a>
       </div>
-      <nav>
+      <nav id="ham">
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a class="active" href="projects.html">Projects</a></li>
@@ -44,36 +44,49 @@
           <!-- <img id="bitmoji2" src="bitmoji/you got it boss.png" alt=""> -->
           <div class="slider">
             <div class="item">
-              <img src="images/Anvil klaar.png" alt="" />
+              <img src="images/anvil.jpg" alt="" />
               <p>
-                test tekst test tekst test tekst test tekst test tekst test
-                tekst test tekst test tekst
+                Anvil made in Blender, includes bump-mapping to create 'dents'
+                in the metal texture
               </p>
             </div>
             <div class="item">
-              <img src="images/Glass klaar.png" alt="" />
+              <img src="images/glass-klaar.jpg" alt="" />
               <p>
-                test tekst test tekst test tekst test tekst test tekst test
-                tekst test tekst test tekst
+                Glass with water and icebubes, made with the help of blender's
+                bluit-in water simulation
               </p>
             </div>
             <div class="item">
-              <img src="images/Lightblulb.png" alt="" />
+              <img src="images/lightblulb.jpg" alt="" />
+              <p>
+                lightblulb render, mainly made to test and learn lighting a
+                scene
+              </p>
             </div>
             <div class="item">
               <img src="images/Rigging.jpg" alt="" />
+              <p>
+                Modeling and rigging of a character, animations were later
+                programmed to trigger on user inputs with in the Unity game
+                engine
+              </p>
             </div>
             <div class="item">
               <img src="images/DonutInProgress.jpg" alt="" />
+              <p>Early stage of shading and lighting a model of a donut and a cup</p>
             </div>
             <div class="item">
-              <img src="images/donut_klaar.png" alt="" />
+              <img src="images/donut_klaar.jpg" alt="" />
+              <p>Final render of the donut and cup, my first finished render back in december of 2017</p>
             </div>
             <div class="item">
-              <img src="images/Boeing 747-400_UV2.png" alt="" />
+              <img src="images/boeing-747-400_UV2.jpg" alt="" />
+              <p>UV mapping of a Boeing 747 in order to apply a self-made texture on it</p>
             </div>
             <div class="item">
-              <img src="images/Boeing 747-400.png" alt="" />
+              <img src="images/boeing-747-400.jpg" alt="" />
+              <p>Final render of the Boeing model, including custom texture made in Illustator</p>
             </div>
             <!-- <div class="item">
               <img src="images/DonutInProgress.jpg" alt="" />
@@ -85,7 +98,7 @@
             <p>
               Some of the projects I worked on both alone and alongside a team,
               most of these consist of 3D renders which I used to make around
-              the year 2017 within Blender (Most were made with the help of
+              the year 2018 within Blender (Most were made with the help of
               Youtube tutorials, making it more of an introduction to the
               concepts of 3D and the software). Other than 3D, I also spent a
               brief amount of time programming in Unity making a movable and

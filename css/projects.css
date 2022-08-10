@@ -15,7 +15,7 @@
 .box {
   position: relative;
   margin: auto;
-  width: 60%;
+  width: 50%;
   /* height: 50vh; */
   background-color: #75fd9243;
   border: solid #75fd92;
@@ -63,6 +63,12 @@
 
 .slider p {
   font-size: 14px;
+}
+
+@media(max-width:860px) {
+  .header h1{
+    font-size: 12vw ;
+  }
 }
 /* .mask {
     position: absolute;
