@@ -25,46 +25,20 @@ function toggle() {
 // displayNav(size);
 // size.addListener(displayNav);
 
-// fade-in-out function used from https://christopheraue.net/design/fading-pages-on-load-and-unload
-
-function fadeInPage() {
-  if (!window.AnimationEvent) {
-    return;
+function changeIntro(size) {
+  let introText = document.getElementById("intro");
+  if (size.matches) {
+    console.log("match");
+    introText.innerHTML = "<span>Hallo world,<br>I'm Mikolaj<span>";
+  }  else {
+    console.log("not a match");
+    
+    introText.innerHTML ="  console.log(<span>'Hallo world, I'm Mikolaj!'</span>);";
+    //   "console.log(<span>'Hallo world, I'm Mikolaj!'</span>);";
   }
-  let fade = document.getElementById("fade");
-  fade.setAttribute("class", "fade-out");
 }
+let size = window.matchMedia("(max-width:565px)");
+changeIntro(size);
+size.addListener(changeIntro);
 
-document.addEventListener("DOMContentLoaded", function () {
-  if (!window.AnimationEvent) {
-    return;
-  }
-  let anchors = document.getElementsByTagName("a");
-  for (let x = 0; x < anchors.length; x += 1) {
-    if (
-      anchors[x].hostname !== window.location.hostname ||
-      anchors[x].pahtname !== window.location.pathname
-    ) {
-      continue;
-    }
-    anchors[x].addEventListener("click", function (e) {
-      let fade = document.getElementById("fade"),
-        anchor = e.currentTarget;
-      let listener = function () {
-        window.location = anchor.href;
-        fade.removeEventListener("animationend", listener);
-      };
-      fade.addEventListener("animationend", listener);
-      event.preventDefault();
-      fade.setAttribute("class", "fade-in");
-    });
-  }
-});
 
-window.addEventListener("pageshow", function (e) {
-  if (!event.persisted) {
-    return;
-  }
-  let fade = document.getElementById("fade");
-  fade.removeAttribute("class", "fade-in");
-});

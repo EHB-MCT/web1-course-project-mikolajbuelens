@@ -2,19 +2,31 @@
 /* colors: #24293E, #8EBBFF, #F4F5FC, #2D3652 */
 
 .splash {
+  /* width: 100% !important; */
+  /* width: 100%; */
+  /* height: 100px; */
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
+
+  /* background-color: #469757; */
+  /* text-align: center; */
   /* background-color: #2d3652; */
 }
 
 .splash h1 {
+  /* display: block; */
+  text-align: center;
   font-family: "Share Tech mono";
   color: #f4f5fc;
   font-size: 150px;
   font-weight: 500;
 }
-
+/* @media (min-width: 550px) {
+  .splash h1 {
+    font-size: 20vw !important;
+  }
+} */
 #miko {
   text-shadow: 0 0 7px white;
   opacity: 0;
@@ -35,13 +47,13 @@
 }
 
 .lBrace {
-  transform: translateX(170px);
+  transform: translateX(200%);
   animation: moveL 1.5s forwards;
   animation-delay: 0.5s;
 }
 
 .rBrace {
-  transform: translateX(-170px);
+  transform: translateX(-200%);
   animation: moveR 1.5s forwards;
   animation-delay: 0.5s;
 }
@@ -58,9 +70,40 @@
   }
 }
 
+.homeContent h2 {
+  font-size: 30px;
+  /* display: inline-block; */
+}
+.homeContent h2,
+h3:not(.cards h3),
+p {
+  display: inline-block;
+  /* font-size: 10px; */
+}
+
+@media (max-width: 550px) {
+  .splash h1 {
+    font-size: 20vw;
+  }
+  .lBrace h1,
+  .rBrace h1 {
+    /* color: rgb(135, 135, 135); */
+    filter: drop-shadow(0px 4px 0px grey);
+  }
+}
+@media (max-width: 1150px) {
+  .homeContent {
+    margin-left: 20px;
+  }
+}
+
 span {
   color: #75fd92;
 }
+
+/* h2, h3, p {
+  display: inline-block;
+} */
 /* 
 Common breakpoints are 320px — 480px for mobile devices,
 481px — 768px for iPads & tablets,
@@ -69,9 +112,7 @@ Common breakpoints are 320px — 480px for mobile devices,
 and 1201px and above for extra large screens like TV.  */
 
 .wave {
-  
-
-   /* width: 100%; */
+  /* width: 100%; */
   /* display: flex;
   justify-content: right;  */
 }
@@ -100,7 +141,7 @@ margin-left: auto; */
   position: absolute;
   justify-content: center;
   margin-top: 20px;
-  margin-right: 200px;
+  /* margin-right: 300px; */
   /* margin-left: 100px; */
   flex-wrap: wrap;
   /* width: 100%; */
