@@ -1,93 +1,34 @@
-/* colors: #26292B, #2E3239, #5F7ADB, #A2B2EE */
-/* colors: #24293E, #8EBBFF, #F4F5FC, #2D3652 */
-
-.splash {
-  /* width: 100% !important; */
-  /* width: 100%; */
-  /* height: 100px; */
+.header {
   display: flex;
   justify-content: center;
-  /* align-items: center; */
-
-  /* background-color: #469757; */
-  /* text-align: center; */
-  /* background-color: #2d3652; */
 }
 
-.splash h1 {
-  /* display: block; */
+.header h1 {
   text-align: center;
   font-family: "Share Tech mono";
   color: #f4f5fc;
   font-size: 150px;
   font-weight: 500;
 }
-/* @media (min-width: 550px) {
-  .splash h1 {
-    font-size: 20vw !important;
-  }
-} */
-#miko {
-  text-shadow: 0 0 7px white;
-  opacity: 0;
-  animation: opacity 1.5s forwards;
-  animation-delay: 1.5s;
-}
-
-@keyframes opacity {
-  100% {
-    opacity: 100;
-  }
-}
-
-.lBrace h1,
-.rBrace h1 {
-  /* color: rgb(135, 135, 135); */
-  filter: drop-shadow(0px 8px 0px grey);
-}
-
-.lBrace {
-  transform: translateX(200%);
-  animation: moveL 1.5s forwards;
-  animation-delay: 0.5s;
-}
-
-.rBrace {
-  transform: translateX(-200%);
-  animation: moveR 1.5s forwards;
-  animation-delay: 0.5s;
-}
-
-@keyframes moveL {
-  100% {
-    transform: translateX(0%);
-  }
-}
-
-@keyframes moveR {
-  100% {
-    transform: translateX(0%);
-  }
-}
 
 .homeContent h2 {
   font-size: 30px;
-  /* display: inline-block; */
 }
 .homeContent h2,
 h3:not(.cards h3),
 p {
   display: inline-block;
-  /* font-size: 10px; */
 }
-
+.lBrace h1,
+.rBrace h1 {
+  filter: drop-shadow(0px 8px 0px grey);
+}
 @media (max-width: 550px) {
-  .splash h1 {
+  .header h1 {
     font-size: 20vw;
   }
   .lBrace h1,
   .rBrace h1 {
-    /* color: rgb(135, 135, 135); */
     filter: drop-shadow(0px 4px 0px grey);
   }
 }
@@ -101,38 +42,6 @@ span {
   color: #75fd92;
 }
 
-/* h2, h3, p {
-  display: inline-block;
-} */
-/* 
-Common breakpoints are 320px — 480px for mobile devices,
-481px — 768px for iPads & tablets,
-769px — 1024px for small screens like laptop,
-1025px — 1200px for large screens like Desktops,
-and 1201px and above for extra large screens like TV.  */
-
-.wave {
-  /* width: 100%; */
-  /* display: flex;
-  justify-content: right;  */
-}
-
-#bitmoji {
-  /* margin-right: 0;
-margin-left: auto; */
-  z-index: 1;
-  /* right: 0; */
-  /* width:500px; */
-  /* transform: rotateY(180deg); */
-  /* height: 100%; */
-  /* margin-left: 15%; */
-  /* display: flex; 
-  justify-content: right; */
-  /* width: 23%; */
-  /* width:50%; */
-  /* vertical-align: middle; */
-}
-
 .cards {
   margin-right: 50px;
   display: flex;
@@ -141,10 +50,7 @@ margin-left: auto; */
   position: absolute;
   justify-content: center;
   margin-top: 20px;
-  /* margin-right: 300px; */
-  /* margin-left: 100px; */
   flex-wrap: wrap;
-  /* width: 100%; */
 }
 
 .cards div:not(.skills) {
@@ -186,15 +92,7 @@ margin-left: auto; */
 }
 
 .skills {
-  /* display: flex; */
   flex: 0 0 80%;
   text-align: center;
   border-bottom: solid #f4f5fc;
-
-  /* border-bottom: solid; */
-}
-
-.skills h2 {
-  color: #f4f5fc;
-  /* width: 1000px; */
 }

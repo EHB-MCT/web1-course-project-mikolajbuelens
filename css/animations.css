@@ -1,3 +1,44 @@
+
+.title {
+  text-shadow: 0 0 7px white;
+  opacity: 0;
+  animation: opacity 1.5s forwards;
+  animation-delay: 1.5s;
+}
+
+@keyframes opacity {
+  100% {
+    opacity: 100;
+  }
+}
+
+
+
+.lBrace {
+  transform: translateX(200%);
+  animation: moveL 1.5s forwards;
+  animation-delay: 0.5s;
+}
+
+.rBrace {
+  transform: translateX(-200%);
+  animation: moveR 1.5s forwards;
+  animation-delay: 0.5s;
+}
+
+@keyframes moveL {
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes moveR {
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+
 #fade {
   position: fixed;
   top: 0;
