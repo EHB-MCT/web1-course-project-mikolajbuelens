@@ -2,31 +2,34 @@
 .contactContent h2 {
   color: #75fd92;
   font-family: "Noto Sans";
+  text-align: left !important;
+
 }
 
 .aboutContent,
 .contactContent {
+  
   display: flex;
   /* margin-left: 20%; */
   justify-content: center;
 }
 
 .contactCards {
-  width: 100% !important;
+  
+  /* width: 100% !important; */
   flex-direction: column;
   /* position: static; */
 }
 
 .contactCards a {
   width: 700px !important;
-  height: 200px !important;
+  /* height: 200px !important;  */
   background-image: linear-gradient(to right, #75fd92 10%, #469757) !important;
   /* flex-direction: unset !important; */
 }
 
 .contactCards img:not(#bitmojiContact) {
   /* margin-top: 20%; */
-  position: absolute;
   left: 0;
   width: 120px;
   margin-left: 20px;
@@ -58,8 +61,17 @@
   font-size: 30px !important;
 }
 
-/* @media (max-width:1150px) {
-    .aboutContent, .contactContent {
-        margin-left: 0;
-    }
+footer {
+  /* display: fixed !important; */
+  width: 100% !important;
+}
+
+/* @media (max-width: 875px) {
+  .contactCards a {
+width: 500px !important;
+  }
+} */
+
+/* .contactCard h2 {
+  position: fixed;
 } */

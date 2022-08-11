@@ -1,4 +1,3 @@
-
 @import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
@@ -80,10 +79,9 @@ h3 {
 }
 
 footer {
-  position: relative;
   background-color: #2d2d2d;
   width: 100%;
-  height: 100px;
+  /* height: 100px; */
   z-index: 15;
   text-align: center;
 }
@@ -92,13 +90,12 @@ main {
   margin-bottom: 10%;
 }
 
-@media (max-width: 1450px) {
+/* @media (max-width: 1450px) {
   footer {
     position: fixed;
     bottom: 0;
-    overflow: hidden;
   }
-}
+} */
 @media (min-width: 1150px) {
   .hamburger {
     display: none;
@@ -133,17 +130,71 @@ main {
 footer h2 {
   margin-left: 10px;
   margin-right: 10px;
+  background-color: #2d2d2d;
+  height: 100px;
 }
 
 #bitmoji {
+  z-index: 10;
   position: absolute;
-  width: 250px;
+  width: 300px;
+  top: 0;
   right: 0;
+  transform: translateY(-20px);
+
+  /* transform: translateY(-200px); */
 }
 
+/* @media(max-width:11641px) { */
+  /* #bitmoji {   transform: translateY(350px); */
+/* }
+
+@media(max-width:740px) {
+  #bitmoji {  width: 200px;
+  }
+}
 @media (max-width: 440px) {
   #bitmoji {
     width: 50%;
-    transform: translateY(60px);
+  } */
+}
+  
+
+
+img .header {
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+@media (max-width: 832px) {
+  footer h2 {
+    font-size: 40px;
+  }
+}
+
+/* .footerBuffer {
+  height: 1200px;
+} */
+
+@media (max-width: 870px) {
+  .intro p {
+    margin-right: 150px;
+  }
+  #bitmoji {
+    transform: translateY(270px);
+    width: 200px ;
+  }
+}
+
+@media(max-width:686px) {
+  .intro p {
+    margin-right: 10px;
+  }
+  #bitmoji { 
+    transform: translateY(500px);
+    width: 150px;
   }
 }
