@@ -1,4 +1,65 @@
-.aboutContent, .contactContent h2 {
-    color: #75fd92;
-    font-family: 'Noto Sans';
+.aboutContent h2,
+.contactContent h2 {
+  color: #75fd92;
+  font-family: "Noto Sans";
 }
+
+.aboutContent,
+.contactContent {
+  display: flex;
+  /* margin-left: 20%; */
+  justify-content: center;
+}
+
+.contactCards {
+  width: 100% !important;
+  flex-direction: column;
+  /* position: static; */
+}
+
+.contactCards a {
+  width: 700px !important;
+  height: 200px !important;
+  background-image: linear-gradient(to right, #75fd92 10%, #469757) !important;
+  /* flex-direction: unset !important; */
+}
+
+.contactCards img:not(#bitmojiContact) {
+  /* margin-top: 20%; */
+  position: absolute;
+  left: 0;
+  width: 120px;
+  margin-left: 20px;
+}
+
+.contactCards span {
+  font-size: 25px;
+  font-weight: 400;
+  display: inline-block;
+  margin-top: 60px;
+  /* margin-top: 150px; */
+  color: #f4f5fc;
+  /* position: absolute; */
+}
+
+#bitmojiContact {
+  /* margin-left: 30%; */
+  /* margin-right: 100%; */
+  /* transform: translateY(-20px); */
+  /* transform: translateX(200px); */
+  transform: translateY(-130px);
+  /* float:right; */
+  right: 0;
+  width: 260px;
+  /* position: absolute; */
+}
+
+.contactCards span:not(#mail) {
+  font-size: 30px !important;
+}
+
+/* @media (max-width:1150px) {
+    .aboutContent, .contactContent {
+        margin-left: 0;
+    }
+} */

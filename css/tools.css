@@ -6,12 +6,11 @@ td {
   font-size: 50px;
   padding: 20px;
   color: #f4f5fc;
-  font-family: 'Noto Sans';
+  font-family: "Noto Sans";
   background-color: #2d3652;
 }
 
 th {
   background-image: linear-gradient(#75fd92, #469757);
-  font-family: 'Share Tech mono';
+  font-family: "Share Tech mono";
 }
-
