@@ -1,0 +1,21 @@
+.container {
+  text-align: center;
+  background-color: gold;
+  width: 500px;
+}
+h1 {
+  text-align: center;
+  background-color: aqua;
+  font-size: 100px;
+  width: 200px;
+  /* display: block; */
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+/* a {
+    display: block;
+ */
+/* } */

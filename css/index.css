@@ -38,6 +38,12 @@ p {
   }
 }
 
+p a {
+  font-family: "Noto Sans";
+  color: #75fd92;
+  font-size: 17px;
+}
+
 span {
   color: #75fd92;
 }
@@ -72,10 +78,12 @@ span {
   width: 220px;
   height: 260px;
   border-radius: 10px;
-  filter: drop-shadow(0px 0px 15px #469757);
   text-align: center;
 }
 
+.cards div:not(.skills) {
+  filter: drop-shadow(0px 0px 15px #469757);
+}
 .cards h3 img p,
 .contactCards h3 img p {
   display: flex;
@@ -111,4 +119,8 @@ span {
   /* flex: 0 0 80%; */
   text-align: center;
   border-bottom: solid #f4f5fc;
+}
+
+.intro p {
+  z-index: 20000;
 }
