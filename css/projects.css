@@ -90,6 +90,12 @@
   .item p {
     margin-right: 10vw;
   }
+
+  .box {
+  border-left: none;
+  border-right:none ;
+  border-radius: 0;
+  }
 }
 
 .item a {

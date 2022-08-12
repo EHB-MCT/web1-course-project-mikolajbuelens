@@ -1,9 +1,10 @@
 .aboutContent h2 {
   color: #75fd92;
   font-family: "Noto Sans";
+  display: block;
 }
 
-.aboutContent{
+.aboutContent {
   /* display: flex; */
   margin-left: 20%;
   margin-right: 5%;
@@ -11,7 +12,20 @@
   /* justify-content: center; */
 }
 @media (max-width: 1150px) {
-.aboutContent {
+  .aboutContent {
     margin-left: 10%;
+  }
 }
+
+.about1 img:first-of-type {
+  width: 20%;
+  /* min-width: 100px; */
+}
+
+.aboutContent img {
+  width: 150px;
+}
+.about1 {
+  display: flex;
+  flex-wrap: wrap;
 }

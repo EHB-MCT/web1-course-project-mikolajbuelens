@@ -1,4 +1,3 @@
-
 .title {
   text-shadow: 0 0 7px white;
   opacity: 0;
@@ -11,8 +10,6 @@
     opacity: 100;
   }
 }
-
-
 
 .lBrace {
   transform: translateX(200%);
@@ -38,6 +35,7 @@
   }
 }
 
+/* fade-in-out animation used from https://christopheraue.net/design/fading-pages-on-load-and-unload */
 
 #fade {
   position: fixed;

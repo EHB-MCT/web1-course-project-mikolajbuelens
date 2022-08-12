@@ -1,6 +1,8 @@
 .header {
   display: flex;
   justify-content: center;
+  /* z-index: 1200 !important; */
+
 }
 
 .header h1 {
@@ -9,6 +11,7 @@
   color: #f4f5fc;
   font-size: 150px;
   font-weight: 500;
+  /* z-index: 1200 !important; */
 }
 
 .homeContent h2 {
