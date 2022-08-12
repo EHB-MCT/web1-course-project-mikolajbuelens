@@ -36,7 +36,7 @@ h3 {
   display: inline-block !important;
 }
 
-@media (max-width: 1150px) {
+@media only screen and (max-width: 1150px) {
   h3 {
     margin-left: 30px;
     margin-right: 30px;
@@ -47,7 +47,7 @@ h3 {
     width: initial;
   }
 }
-@media (max-width: 650px) {
+@media only screen and (max-width: 650px) {
   th,
   td {
     font-size: 15px;
