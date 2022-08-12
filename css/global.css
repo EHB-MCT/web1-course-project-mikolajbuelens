@@ -92,6 +92,7 @@ footer {
   /* height: 100px; */
   z-index: 15;
   text-align: center;
+  bottom: 0;
 }
 
 main {
