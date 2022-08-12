@@ -96,6 +96,11 @@ footer {
   /* height: 100px; */
   z-index: 5;
   text-align: center;
+  margin-top: 100px;
+}
+
+footer img {
+  width: 40px;
 }
 
 main {
