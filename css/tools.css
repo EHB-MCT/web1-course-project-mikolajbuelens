@@ -26,10 +26,8 @@ h3 {
 }
 
 .wrapper {
-  /* width: 400px; */
   display: flex;
   justify-content: center;
-  /* flex-direction: column; */
 }
 
 .wrapper h3 {

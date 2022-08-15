@@ -9,7 +9,6 @@ function changeIntro(size) {
       console.log("not a match");
       
       introText.innerHTML =" console.log(<span>'Hallo world, I'm Mikolaj!'</span>);";
-      //   "console.log(<span>'Hallo world, I'm Mikolaj!'</span>);";
     }
   }
   let size = window.matchMedia("(max-width:685px)");

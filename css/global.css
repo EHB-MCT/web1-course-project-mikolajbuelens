@@ -46,6 +46,7 @@ a {
   font-family: "Share Tech mono";
   cursor: pointer;
   text-decoration: none;
+  transition: 0.6s;
 }
 
 .linkedin a {
@@ -110,27 +111,6 @@ main {
   justify-content: space-between;
 }
 
-/* @media only screen and (min-width: 979px) {
-  footer {
-    position: absolute;
-  }
-}
-
-@media only screen and (max-width: 978px) {
-  footer {
-    position: relative;
-  }
-} */
-main {
-  /* margin-bottom: 10%; */
-}
-
-/* @media only screen and (max-width: 1450px) {
-  footer {
-    position: fixed;
-    bottom: 0;
-  }
-} */
 @media only screen and (min-width: 1150px) {
   .hamburger {
     display: none;
@@ -149,23 +129,20 @@ main {
     border-radius: 0px 0px 30px 0px;
   }
 
-  @media  screen and  (max-height: 500px) {
-nav {
-  width: 600px;
-  height: 300px;
-  
-}
-ul {
-  margin-top: 50px;
-  margin-right: 50px;
-  align-items: center;
-vertical-align: middle;
-  flex-direction: row;
-  justify-content: space-between;
-}
+  @media screen and (max-height: 500px) {
+    nav {
+      width: 600px;
+      height: 300px;
+    }
+    ul {
+      margin-top: 50px;
+      margin-right: 50px;
+      align-items: center;
+      vertical-align: middle;
+      flex-direction: row;
+      justify-content: space-between;
+    }
   }
-  
-  
 
   .hamburger {
     position: fixed;
@@ -195,23 +172,7 @@ footer h2 {
   top: 0;
   right: 0;
   transform: translateY(-20px);
-
-  /* transform: translateY(-200px); */
 }
-
-/* @media only screen and(max-width:11641px) { */
-/* #bitmoji {   transform: translateY(350px); */
-/* }
-
-@media only screen and(max-width:740px) {
-  #bitmoji {  width: 200px;
-  }
-}
-@media only screen and (max-width: 440px) {
-  #bitmoji {
-    width: 50%;
-  } */
-/* } */
 
 img .header {
   -webkit-user-drag: none;
@@ -226,10 +187,6 @@ img .header {
     font-size: 40px;
   }
 }
-
-/* .footerBuffer {
-  height: 1200px;
-} */
 
 @media only screen and (max-width: 870px) {
   .intro p {

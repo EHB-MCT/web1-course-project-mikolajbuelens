@@ -5,11 +5,9 @@
 }
 
 .aboutContent {
-  /* display: flex; */
   margin-left: 20%;
   margin-right: 5%;
 
-  /* justify-content: center; */
 }
 @media only screen and (max-width: 1150px) {
   .aboutContent {
@@ -19,7 +17,6 @@
 
 .about1 img:first-of-type {
   width: 20%;
-  /* min-width: 100px; */
 }
 
 .aboutContent img {
